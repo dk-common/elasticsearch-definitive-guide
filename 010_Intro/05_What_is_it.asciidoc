@@ -6,6 +6,8 @@ https://lucene.apache.org/core/[Apache Lucene(TM)], a full-text search-engine
 library.((("Apache Lucene")))((("Lucene")))  Lucene is arguably the most advanced, high-performance, and fully featured
 search engine library in existence today--both open source and proprietary.
 
+Elasticsearch 是基于 https://lucene.apache.org/core/[Apache Lucene(TM)] ，一个全文检索引擎库之上构建的开源搜索引擎。
+
 But Lucene is just a library. To leverage its power, you need to work in Java
 and to integrate Lucene directly with your application. Worse, you will likely
 require a degree in information retrieval to understand how it works.  Lucene
