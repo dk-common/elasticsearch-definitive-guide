@@ -7,18 +7,28 @@ library.((("Apache Lucene")))((("Lucene")))  Lucene is arguably the most advance
 search engine library in existence today--both open source and proprietary.
 
 Elasticsearch 是基于 https://lucene.apache.org/core/[Apache Lucene(TM)] ，一个全文检索引擎库之上构建的开源搜索引擎。
+((("Apache Lucene")))((("Lucene")))  Lucene 无论在当前的开源或收费领域，都毋庸置疑是最先进、高性能且全功能的搜索引擎库。
+
 
 But Lucene is just a library. To leverage its power, you need to work in Java
 and to integrate Lucene directly with your application. Worse, you will likely
 require a degree in information retrieval to understand how it works.  Lucene
 is _very_ complex.
 
+但是 Lucene 只是一个库。为了撬动它的能力，你需要使用 Java 进行开发，并将 Lucene 与你的应用进行集成。更糟的是，
+为了搞清楚它的工作原理，你可能会需要一个信息检索学位。Lucene _非常_复杂。
+
 Elasticsearch is also written in Java((("Java"))) and uses Lucene internally for all of
 its indexing and searching, but it aims to make full-text search easy by hiding
 the complexities of Lucene behind a simple, coherent, RESTful API.
 
+Elasticsearch 同样由 Java((("Java"))) 编写，并在内部使用 Lucene 来完成它的所有索引和搜索功能，
+但它的目标是将 Lucene 的复杂操作通过通过简单、容易理解、 RESTful API方式更为简洁的实现全文检索。
+
 However, Elasticsearch is much more than just Lucene and much more than
 ``just'' full-text search.((("Elasticsearch", "capabilities"))) It can also be described as follows:
+
+然而， Elasticsearch 不仅仅是 Lunece，也并不止是一个全文检索工具。((("Elasticsearch", "capabilities")))它也可以像以下这样描述：
 
 * A distributed real-time document store where _every field_ is indexed and
   searchable
